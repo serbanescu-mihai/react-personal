@@ -187,8 +187,8 @@ a:hover {
 }
 
 .header {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url(../images/code.jpg) center/cover no-repeat; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(./images/code.jpg) center/cover no-repeat;
   padding-top: 10rem;
   padding-left: 5rem;
 }
