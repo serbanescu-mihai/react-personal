@@ -17,21 +17,27 @@ export const projects = [
     id: 1,
     image: "./images/mihai-serbanescu-website.png",
     projectName: "This website built using React",
+    projectDescription: "Personal projects website.",
     tools: [
       {
         id: 1,
         image: "fa-brands fa-react",
         name: "React",
       },
+      {
+        id: 2,
+        image: "fa-brands fa-css3",
+        name: "CSS",
+      },
     ],
-    url: "",
+    url: "https://github.com/serbanescu-mihai/serbanescu-mihai.github.io",
     gitHubLink: "https://github.com/serbanescu-mihai/ms-react",
   },
   {
     id: 2,
     image: "./images/mihai-serbanescu-website.png",
     projectName: "This website build using HTML, CSS, JS",
-    projectDescription: "Personal projects website",
+    projectDescription: "Personal projects website.",
     tools: [
       {
         id: 1,

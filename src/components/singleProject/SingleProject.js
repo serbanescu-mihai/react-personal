@@ -22,13 +22,19 @@ const SingleProject = ({ projects }) => {
                 })}
               </div>
             </div>
-            <a className="project-link" href={project.url} target="_blank">
+            <a
+              className="project-link"
+              href={project.url}
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo <i className="fa-solid fa-arrow-right"></i>
             </a>
             <a
               className="project-link"
               href={project.gitHubLink}
               target="_blank"
+              rel="noreferrer"
             >
               GitHub code <i className="fa-solid fa-arrow-right"></i>
             </a>

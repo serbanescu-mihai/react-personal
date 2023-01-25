@@ -4,9 +4,7 @@ import { socialLink } from "../../data/data";
 const Header = () => {
   return (
     <section className="section header" id="header">
-      <div className="section-title">
-        <h2 className="section-h2"></h2>
-      </div>
+      <div className="section-title"></div>
       <p>Hello World!</p>
       <p>
         I'm<span> Mihai Serbanescu</span>
@@ -16,7 +14,7 @@ const Header = () => {
         {socialLink.map((link) => {
           const { id, icon, href, name } = link;
           return (
-            <a href={href} target="_blank" key={id}>
+            <a href={href} target="_blank" rel="noreferrer" key={id}>
               <p>
                 <i className={icon}></i> {name}
               </p>
