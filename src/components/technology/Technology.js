@@ -6,7 +6,7 @@ import Section from "../section/Section";
 
 const Technology = () => {
   return (
-    <Section title="Technology">
+    <Section title="technology">
       <TechnologyItem technology={technology}></TechnologyItem>
     </Section>
   );

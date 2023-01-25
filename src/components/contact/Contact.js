@@ -10,7 +10,7 @@ const contact = () => {
         return (
           <a href={href} target="_blank" rel="noreferrer" key={id}>
             <p>
-              <i className={`${icon} fa-5x`}></i> {name}
+              <i className={`${icon} fa-3x`}></i> {name}
             </p>
           </a>
         );

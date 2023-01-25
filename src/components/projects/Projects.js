@@ -5,7 +5,7 @@ import { projects } from "../../data/data";
 
 const Projects = () => {
   return (
-    <Section title="Projects">
+    <Section title="projects">
       <SingleProject projects={projects}></SingleProject>
     </Section>
   );
