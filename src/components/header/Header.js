@@ -1,4 +1,5 @@
 import React from "react";
+import { socialLink } from "../../data/data";
 
 const Header = () => {
   return (
@@ -12,16 +13,16 @@ const Header = () => {
       </p>
       <p>a software engineer</p>
       <div className="social-links">
-        <a href="https://www.linkedin.com/in/mihaiserbanescu/" target="_blank">
-          <p>
-            <i className="fa-brands fa-linkedin"></i> LinkedIN
-          </p>
-        </a>
-        <a href="https://github.com/serbanescu-mihai" target="_blank">
-          <p>
-            <i className="fa-brands fa-github"></i> GitHub
-          </p>
-        </a>
+        {socialLink.map((link) => {
+          const { id, icon, href, name } = link;
+          return (
+            <a href={href} target="_blank" key={id}>
+              <p>
+                <i className={icon}></i> {name}
+              </p>
+            </a>
+          );
+        })}
       </div>
     </section>
   );

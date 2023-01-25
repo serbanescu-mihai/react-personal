@@ -6,7 +6,7 @@ import Section from "../section/Section";
 
 const Technology = () => {
   return (
-    <Section cls="technology" id="technology" title="Technology">
+    <Section title="Technology">
       <TechnologyItem technology={technology}></TechnologyItem>
     </Section>
   );

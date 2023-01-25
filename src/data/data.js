@@ -59,3 +59,35 @@ export const projects = [
       "https://github.com/serbanescu-mihai/serbanescu-mihai.github.io",
   },
 ];
+
+export const navigation = [
+  { id: 1, href: "#header", icon: "fa-solid fa-house", name: "HOME" },
+  { id: 2, href: "#projects", icon: "fa-solid fa-briefcase", name: "PROJECTS" },
+  {
+    id: 3,
+    href: "#technology",
+    icon: "fa-solid fa-microchip",
+    name: "TECHNOLOGY",
+  },
+  {
+    id: 4,
+    href: "#contact",
+    icon: "fa-solid fa-address-card",
+    name: "CONTACT",
+  },
+];
+
+export const socialLink = [
+  {
+    id: 1,
+    href: "https://www.linkedin.com/in/mihaiserbanescu/",
+    icon: "fa-brands fa-linkedin",
+    name: "LinkedIN",
+  },
+  {
+    id: 2,
+    href: "https://github.com/serbanescu-mihai",
+    icon: "fa-brands fa-github",
+    name: "GitHub",
+  },
+];
