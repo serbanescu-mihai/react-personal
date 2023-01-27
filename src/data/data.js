@@ -30,7 +30,7 @@ export const projects = [
         name: "CSS",
       },
     ],
-    url: "https://github.com/serbanescu-mihai/serbanescu-mihai.github.io",
+    url: "https://ms-react-personal.netlify.app/",
     gitHubLink: "https://github.com/serbanescu-mihai/ms-react",
   },
   {
