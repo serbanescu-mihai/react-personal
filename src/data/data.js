@@ -14,6 +14,37 @@ export const technology = [
 
 export const projects = [
   {
+    id: 2,
+    image: "./images/restaurant.png",
+    projectName: "Restaurant Website",
+    projectDescription:
+      "Simple and responsive restaurant frontend website with JavaScript food menu.",
+    tools: [
+      {
+        id: 1,
+        image: "fa-brands fa-html5",
+        name: "HTML",
+      },
+      {
+        id: 2,
+        image: "fa-brands fa-sass",
+        name: "Sass",
+      },
+      {
+        id: 3,
+        image: "fa-brands fa-css3",
+        name: "CSS",
+      },
+      {
+        id: 4,
+        image: "fa-brands fa-js",
+        name: "JavaScript",
+      },
+    ],
+    url: "https://ms-plain-restaurant.netlify.app/",
+    gitHubLink: "https://github.com/serbanescu-mihai/restaurant",
+  },
+  {
     id: 1,
     image: "./images/mihai-serbanescu-website.png",
     projectName: "This website built using React",
