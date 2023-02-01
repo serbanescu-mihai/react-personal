@@ -14,7 +14,28 @@ export const technology = [
 
 export const projects = [
   {
-    id: 2,
+    id: 4,
+    image: "./images/restaurant.png",
+    projectName: "React Restaurant Website",
+    projectDescription:
+      "Simple and responsive restaurant frontend website built with react.",
+    tools: [
+      {
+        id: 1,
+        image: "fa-brands fa-react",
+        name: "React",
+      },
+      {
+        id: 2,
+        image: "fa-brands fa-css3",
+        name: "CSS",
+      },
+    ],
+    url: "https://ms-react-restaurant.netlify.app/",
+    gitHubLink: "https://github.com/serbanescu-mihai/react-restaurant",
+  },
+  {
+    id: 3,
     image: "./images/restaurant.png",
     projectName: "Restaurant Website",
     projectDescription:
