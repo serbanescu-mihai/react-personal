@@ -14,6 +14,36 @@ export const technology = [
 
 export const projects = [
   {
+    id: 5,
+    image: "./images/bnb.png",
+    projectName: "B&B Website",
+    projectDescription: "Simple and responsive B&B frontend website.",
+    tools: [
+      {
+        id: 1,
+        image: "fa-brands fa-html5",
+        name: "HTML",
+      },
+      {
+        id: 2,
+        image: "fa-brands fa-sass",
+        name: "Sass",
+      },
+      {
+        id: 3,
+        image: "fa-brands fa-css3",
+        name: "CSS",
+      },
+      {
+        id: 4,
+        image: "fa-brands fa-js",
+        name: "JavaScript",
+      },
+    ],
+    url: "https://ms-plain-bnb.netlify.app/",
+    gitHubLink: "https://github.com/serbanescu-mihai/plain-bnb",
+  },
+  {
     id: 4,
     image: "./images/restaurant.png",
     projectName: "React Restaurant Website",
