@@ -14,6 +14,27 @@ export const technology = [
 
 export const projects = [
   {
+    id: 6,
+    image: "./images/bnb.png",
+    projectName: "React BnB Website",
+    projectDescription:
+      "Simple and responsive BnB frontend website built with react.",
+    tools: [
+      {
+        id: 1,
+        image: "fa-brands fa-react",
+        name: "React",
+      },
+      {
+        id: 2,
+        image: "fa-brands fa-css3",
+        name: "CSS",
+      },
+    ],
+    url: "https://ms-react-bnb.netlify.app/",
+    gitHubLink: "https://github.com/serbanescu-mihai/react-bnb",
+  },
+  {
     id: 5,
     image: "./images/bnb.png",
     projectName: "B&B Website",
